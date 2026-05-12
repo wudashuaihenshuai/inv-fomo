@@ -22,4 +22,16 @@ bash run_rwd_test.sh
 bash run_rwd_test_t2.sh
 
 
+### For other detailed settings, please refer to FOMO:
 
+@InProceedings{Zohar_2023_CVPR,
+    author    = {Zohar, Orr and Wang, Kuan-Chieh and Yeung, Serena},
+    title     = {PROB: Probabilistic Objectness for Open World Object Detection},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2023},
+    pages     = {11444-11453}
+}
+
+
+code: https://github.com/orrzohar/FOMO.git
