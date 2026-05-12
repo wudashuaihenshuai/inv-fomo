@@ -15,11 +15,13 @@ Dataset setup instruction is in [DATASET_SETUP.md](DATASET_SETUP.md).
 
 
 ### RUN
-bash cit_setup.sh 
+bash cit_setup.sh             
 
 bash run_rwd_test.sh
 
 bash run_rwd_test_t2.sh
+
+bash viz_test.sh  
 
 
 ### For other detailed settings, please refer to FOMO:
