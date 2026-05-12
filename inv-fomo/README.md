@@ -1,6 +1,6 @@
 # Open World Object Detection via Causal Attribute Learning
 
-## 🛠️ Requirements and Installation
+## Requirements and Installation
 
 ```bash
 conda create --name inv-fomo python==3.7.16
@@ -9,7 +9,7 @@ pip install -r requirements.txt
 conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 pytorch-cuda=11.6 -c pytorch -c nvidia
 ```
 
-## 📸 Dataset Setup
+## Dataset Setup
 Dataset setup instruction is in [DATASET_SETUP.md](DATASET_SETUP.md).
 
 
