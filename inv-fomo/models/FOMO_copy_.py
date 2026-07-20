@@ -820,7 +820,7 @@ class FOMO(nn.Module):
 
             kl_elementwise = F.kl_div(q, p, reduction='none', log_target=True)
 
-            kl_per_attribute = kl_elementwise.mean(dim=0)
+            kl_per_attribute = kl_elementwise.abs().mean(dim=0)
             
             max_kl = kl_per_attribute.max()
             min_kl = kl_per_attribute.min()
